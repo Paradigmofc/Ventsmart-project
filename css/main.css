@@ -1,0 +1,717 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	padding: 0;
+}
+
+p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 500;
+    width: 740px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2 {
+    font-weight: 100;
+    font-family: 'Noto Sans';
+    padding: 0;
+    margin: 0;
+}
+
+h3, h4, h5, h6 {
+    font-weight: 500;
+    font-family: 'Noto Sans';
+}
+
+ul, ol {
+    font-family: 'Noto Sans';
+	list-style: none;
+    margin: 0;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.head3-general {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 24px;
+    color: rgba(12, 17, 20, 0.75);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+}
+
+/* =====================================
+    Первая секция
+   ====================================== */
+.header {
+    background: url('../img/bg-image.jpg') no-repeat center/cover;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.head-wrapper {
+    padding-top: 50px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.link-head {
+    display: flex;
+}
+
+.logotype {
+    display: flex;
+    align-items: center;
+}
+
+.head-text {
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 0.05em;
+    margin-left: 14px;
+    font-family: 'Andea';
+}
+
+.list {
+    position: absolute;
+    right: 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff;
+    margin-left: 72px;
+}
+
+.nav-link:hover {
+    color: rgb(216, 212, 212);
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+
+  /* контейнер меню */
+.menu__box {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    right: -20px;
+    width: 140px;
+    height: 185px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    background: #3C81E8;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    margin-top: 16px;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .first-move {
+      margin-top: 55px;
+      margin-left: 70px;
+  }
+
+  .second-move {
+      margin-left: 20px;
+  }
+
+  .third-move {
+      margin-left: 40px;
+  }
+
+  .fourth-move {
+      margin-left: 60px;
+  }
+  .menu__item:hover {
+    color: #84b0c3;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    right: -15px;
+  }
+
+  .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+
+@media screen and (max-width: 320px) {
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+.offer {
+   margin-top: 18%;
+}
+
+.text-offer {
+    margin-bottom: 64px;
+}
+
+.offer-title {
+    font-size: 50px;
+    color: #fff;
+    line-height: 79px;
+    width: 976px;
+    font-weight: 100;
+}
+
+.offer-paragraph {
+    font-size: 14px;
+    color: #fff;
+    width: 826px;
+    line-height: 26px;
+    margin-top: 36px;
+}
+
+.buttons-block {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.01);
+    padding: 18px 40px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #E21042;
+    border: 1px solid #E21042;
+}
+
+.red {
+    padding: 18px 45px;
+    margin-left: 64px;
+    border: none;
+    background: #E21042;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.red:hover {
+    background: rgba(255, 255, 255, 0.01);
+    border: 1px solid #E21042;
+    color: #E21042;
+    box-sizing: border-box;
+}
+
+.about-me {
+    width: 1550px;
+    background: #fff;
+    margin-top: 200px;
+    margin-left: -100px;
+}
+
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.about-head {
+    font-size: 40px;
+    font-weight: 200;
+    color: rgba(12, 17, 20, 0.75);
+}
+/*=====================================
+    Конец секции
+======================================*/
+
+
+/*=====================================
+    Вторая секция 
+======================================*/
+
+.description-text {
+    margin: 50px 0 100px;
+}
+
+.desc-paragraph {
+    color: rgba(12, 17, 20, 0.75);
+
+}
+
+.advantages {   
+    display: flex;
+    align-items: center;
+}
+
+.p-advantages {
+    width: 410px;
+    color: rgba(12, 17, 20, 0.75);
+    font-weight: 500;
+}
+
+.mr {
+    margin-right: 60px;
+}
+
+.adv-sertificates {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.certif {
+    margin-right: 60px;
+}
+/*=====================================
+    Конец секции
+======================================*/
+
+
+/*=====================================
+    Третья секция 
+======================================*/
+.conditioner {
+    background: url('../img/bg-image2.jpg') no-repeat center/cover;
+}
+
+.pre-cond-wrap {
+    width: 1550px;
+    background: #fff;
+    margin-top: 200px;
+    margin-left: -100px;
+}
+
+.cond-cover {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.cond-head {
+    font-size: 40px;
+    font-weight: 200;
+    color: rgba(12, 17, 20, 0.75);
+}
+
+.conditioner-content {
+    padding-top: 8%;
+    padding-bottom: 280px;
+}
+
+.text-cond {
+    margin-bottom: 64px;
+}
+
+.price {
+    padding: 18px 63px;
+}
+
+.service {
+    width: 1550px;
+    background: #fff;
+    margin-left: -100px;
+}
+
+.service-wrap {
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conditioner-serv {
+    font-size: 40px;
+    font-weight: 200;
+}
+/*=====================================
+    Конец секции
+======================================*/
+
+
+/*=====================================
+    Четвёртая секция 
+======================================*/
+.maintenance-wrapper {
+    padding-bottom: 150px;
+}
+
+.maintenance-group {
+    padding-top: 100px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.maintenance-text {
+    margin-bottom: -24px;
+}
+
+.maintenance-img {
+   flex: none;
+   margin-right: 64px;
+}
+
+.accomodation-text {
+    color: rgba(12, 17, 20, 0.75);
+    margin-bottom: 24px;
+}
+
+.list-block {
+    margin-left:164px;
+}
+
+.main-ul1 {
+    list-style: square;
+    color: rgba(60, 129, 232, 1);
+    display: flex;
+    align-items: center;
+    margin-bottom: 44px;
+    margin-top: 64px;
+    font-weight: 600;
+}
+
+.main-ul2 {
+    display: flex;
+    align-items: center;
+    color: rgba(60, 129, 232, 1);
+    list-style: square;
+    margin-bottom: 64px;
+    font-weight: 600;
+}
+
+.main-list {
+    font-size: 14px;
+    margin-right: 100px;
+}
+
+.main-list2 {
+    margin-left: 47px;
+    font-size: 14px;
+}
+
+.one-more {
+    margin-left: 146px;
+}
+
+.bord {
+    border: 1px solid #0C1114;
+    color: rgba(12, 17, 20, 0.75);
+    width: 169px;
+    display: block;
+}
+/*=====================================
+    Конец секции
+======================================*/
+
+
+/*=====================================
+    Пятая секция 
+======================================*/
+.air {
+    height: 100vh;
+    background: url('../img/bg-image3.jpg') no-repeat center/cover;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+.pre-air-wrap {
+    width: 1550px;
+    background: #fff;
+    margin-left: -100px;
+}
+
+.air-cover {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.air-head {
+    font-size: 40px;
+    font-weight: 200;
+    color: rgba(12, 17, 20, 0.75);
+}
+
+.air-content {
+    margin-top: 100px;
+}
+
+.commissioning {
+    color: #fff;
+    font-size: 14px;
+    width: 740px;
+    line-height: 26px;
+}
+
+.vent {
+    margin-top: 64px;
+}
+
+.question {
+    margin-top: 36px;
+}
+
+.why {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 36px;
+}
+
+.secret {
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    width: 740px;
+}
+
+.air-btn {
+    margin-top: 64px;
+}
+
+.white-block {
+    width: 1550px;
+    background: #fff;   
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+.white-sec {
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.gallery-head {
+    font-size: 40px;
+    font-weight: 200;
+    color: rgba(12, 17, 20, 0.75);
+}
+/*=====================================
+    Конец секции
+======================================*/
+
+
+/*=====================================
+    Шестая секция 
+======================================*/
+.gallery-wrapper {
+    position: relative;
+}
+
+.slider-container {
+    margin-top: 50px;
+    position: relative;
+}
+
+.slick-arrow {
+    display: none;
+}
+
+.slick-prev {
+    left: -75px;
+    top: 45%;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-next {
+    right: -50px;
+    top: 45%;
+    width: 40px;
+    height: 40px;
+}
+
+.connection {
+    margin-top: 150px;
+    padding-bottom: 150px;
+}
+
+.connection-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.connection-img {
+    margin-right: 64px;
+    flex: none;
+}
+
+.con-paragraph {
+    color: rgba(12, 17, 20, 0.75);
+    font-weight: 500;
+    font-size: 14px;
+    width: 740px;
+    line-height: 26px;
+}
+
+.common-ul {
+    display: flex;
+    align-items: center;
+    color: rgba(60, 129, 232, 1);
+    list-style: square;
+    margin: 64px 0 64px 164px;
+    font-weight: 600;
+}
+/*=====================================
+    Конец секции
+======================================*/
+
+/*=====================================
+    Седьмая секция
+======================================*/
+.footer {
+    background: url('../img/bg-footer.jpg') no-repeat center/cover;
+    position: relative;
+}
+
+.footer-white {
+    width: 1550px;
+    background: #fff;
+    height: 154px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+.footer-content {
+    padding-top: 84px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.last-logo {
+    display: flex;
+    align-items: center;
+}
+
+.foot-list {
+    position: absolute;
+    right: 0;
+    margin-right: 72px;
+}
+
+.footer-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.foot-li {
+    margin-left: 72px;
+    color: rgba(12, 17, 20, 0.75);
+}
+
+.arrow_up {
+    margin-left: 72px;
+    position: absolute;
+    right: 0;
+    top: 75px;
+}
+
+
+/*=====================================
+    Конец секции
+======================================*/

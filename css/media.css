@@ -1,0 +1,828 @@
+@media screen and (max-width: 1440px) {
+    .container  {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .about-me {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .p-advantages {
+        width: 370px;
+    }
+
+    .mr {
+        margin-right: 35px;
+    }
+
+    .pre-cond-wrap {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .service {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .pre-air-wrap {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main-list {
+        margin-right: 45px;
+    }
+
+    .white-block {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .slick-next {
+        right: -43px;
+    }
+
+    .footer-white {
+        width: 98%;
+        margin-left: 0;
+    }
+
+    .slick-next {
+        display: none !important;
+    }
+
+    .slick-prev {
+        display: none !important;
+    }
+}    
+
+@media screen and (max-width: 1199px) {
+    .about-me {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 320px;
+    }
+
+    .offer-title {
+        width: 960px;
+    }
+
+    .p-advantages {
+        width: 305px;
+    }
+
+    .mr {
+        margin-right: 19px;
+    }
+
+    .pre-cond-wrap {
+        width: 100%;
+        left: 0;
+        top: -30px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .main-list2 {
+        margin-left: 210px;
+    }
+
+    .pre-air-wrap {
+        width: 100%;
+    }
+
+    .air-white-block {
+        width: 100%;
+    }
+
+    .slick-next {
+        right: -43px;
+    }
+
+    .footer-white {
+        width: 90%;
+        margin-left: 5%;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nav-link {
+        margin-left: 40px;
+    }
+
+    .offer-title {
+        width: 740px;
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    .offer-paragraph {
+        font-size: 13px;
+        width: 740px;
+    }
+
+    .btn {
+        padding: 14px 34px;
+    }
+
+    .red {
+        padding: 14px 40px;
+    }
+
+    .about-me {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 220px;
+    }
+
+    .about-head {
+        font-size: 32px;
+    }
+
+    .about-wrapper {
+        padding: 30px 70px;
+    }
+
+    .advantages {
+        align-items: flex-start;
+    }
+
+    .p-advantages {
+        width: 192px;
+    }
+
+    .head3-general {
+        font-size: 16px;
+    }
+
+    .mr {
+        margin-right: 35px;
+    }
+
+    .adv-sertificates {
+        display: block;
+        margin-left: 150px;
+    }
+
+    .pre-cond-wrap {
+        width: 100%;
+        margin-top: 120px;
+        margin-left: 0;
+    }
+
+    .cond-cover {
+        padding: 30px 70px;
+    }
+
+    .cond-head {
+        font-size: 32px;
+    }
+
+    .price {
+        padding: 14px 40px;
+    }
+
+    .conditioner-content {
+        padding-bottom: 150px;
+    }
+
+    .service {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .service-wrap {
+        padding: 30px 70px;
+    }
+
+    .conditioner-serv {
+        font-size: 32px;
+    }
+
+    .maintenance-img {
+        margin-right: 40px;
+    }
+
+    .accomodation-text {
+        width: 600px;
+    }
+
+    .list-block {
+        margin-left: 140px;
+    }
+
+    .main-list {
+        margin-right: 11px;
+    }
+
+    .main-list2 {
+        margin-left: 140px;
+    }
+
+    .pre-air-wrap {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .air-cover {
+        padding: 30px 70px;
+    }
+
+    .air-head {
+        font-size: 32px;
+    }
+
+    .white-block {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .white-sec {
+        padding: 30px 70px;
+    }
+
+    .connection-img {
+        margin-right: 40px;
+    }
+
+    .con-paragraph {
+        width: 600px;
+    }
+
+    .gallery-head {
+        font-size: 34px;
+    }
+
+    .common-ul {
+        margin-left: 144px;
+    }
+
+    .footer-white {
+        width: 90%;
+    }
+
+    .footer-nav-link {
+        margin-left: 30px;
+    }
+
+    .arrow_up {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .list {
+        display: none;
+    }
+    
+    .hamburger-menu {
+        display: block;
+        right: 0;
+        position: absolute;
+        top: -10px;
+    }
+
+    .offer-title {
+        width: 500px;
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .offer-paragraph {
+        width: 540px;
+    }
+
+    .about-wrapper {
+        padding: 20px 30px;
+    }
+
+    .about-me {
+        width: 108%;
+        margin-left: -23px;
+    }
+
+    .about-head {
+        font-size: 28px;
+    }
+
+    .desc-paragraph {
+        width: 500px;
+    }
+
+    .advantages {
+        display: block;
+    }
+
+    .block-advantages {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+
+    .p-advantages {
+        width: 400px;
+    }
+
+    .adv-sertificates {
+        margin-left: 65px;
+    }
+
+    .cond-cover {
+        padding: 20px 30px;
+    }
+
+    .pre-cond-wrap {
+        width: 108%;
+        margin-left: -23px;
+    }
+
+    .cond-head {
+        font-size: 28px;
+    }
+
+    .text-cond {
+        width: 500px;   
+    }
+
+    .service-wrap {
+        padding: 20px 30px;
+    }
+
+    .service {
+        width: 108%;
+        margin-left: -23px;
+    }
+
+    .conditioner-serv {
+        font-size: 28px;
+    }
+
+    .maintenance-wrapper {
+        padding-bottom: 120px;
+    }
+
+    .maintenance-group {
+        padding-top: 70px;
+        display: block;
+    }
+
+    .maintenance-img {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .accomodation-text {
+        width: 458px;
+    }
+
+    .list-block {
+        margin-left: 20px;
+    }
+
+    .main-ul1 {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .main-list {
+        margin-bottom: 10px;
+    }
+
+    .main-ul2 {
+        display: block;
+    }
+
+    .main-list2 {
+        margin-left: 0;
+    }
+
+    .one-more {
+        margin-left: 0;
+    }
+
+    .air-cover {
+        padding: 20px 30px;
+    }
+
+    .pre-air-wrap {
+        width: 108%;
+        margin-left: -23px;
+    }
+
+    .air-head {
+        font-size: 28px;
+    }
+
+    .commissioning {
+        width: 500px;
+    }
+
+    .secret {
+        width: 500px;
+    }
+
+    .white-sec {
+        padding: 30px 30px;
+    }
+
+    .white-block {
+        width: 108%;
+        margin-left: -23px;
+    }
+
+    .gallery-head {
+        font-size: 28px;
+    }
+
+    .connection {
+        padding-bottom: 50px;
+    }
+
+    .connection-wrapper {
+        display: block;
+    }
+
+    .con-paragraph {
+        width: 500px;
+    }
+
+    .common-ul {
+        margin-left: 20px;
+        display: block;
+    }
+
+    .footer-content {
+        padding-top: 100px;
+    }
+
+    .footer-white {
+        display: none;
+    }
+
+    .arrow_up {
+        top: 100px;
+    }
+
+    .foot-list {
+        display: none;
+    }
+
+    .arrow-foot {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    p {
+        width: 100%;
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    .head-wrapper {
+        padding-top: 15px;
+    }
+
+    .offer-title {
+        font-size: 28px;
+        width: 100%;
+        line-height: 43px;
+    }
+
+    .offer-paragraph {
+        width: 100%;
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .menu__btn {
+        top: 17px;
+        right: 0;
+    }
+
+    .buttons-block {
+        display: block;
+    }
+
+    .btn {
+        width: 144px;
+        padding: 14px 38px;
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+
+    .red {
+        margin-left: 0;
+    }
+
+    .about-me {
+        width: 109%;
+        margin-left: -20px;
+        margin-top: 90px;
+    }
+
+    .about-head {
+        font-size: 18px;
+    }
+
+    .description-text {
+        margin-bottom: 50px;
+        margin-top: 70px;
+    }
+
+    .desc-paragraph {
+        font-size: 10px;
+        width: 100%;
+        line-height: 17px;
+    }
+
+    .head3-general {
+        font-size: 14px;
+    }
+
+    .p-advantages {
+        width: 100%;
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    .block-advantages {
+        margin-bottom: 55px;
+    }
+
+    .adv-sertificates {
+        margin-left: 0;
+    }
+
+    .pre-cond-wrap {
+        width: 109%;
+        margin-left: -20px  ;
+    }
+
+    .text-cond {
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .mb {
+        margin-bottom: 36px;
+    }
+
+    .service {
+        width: 109%;
+        margin-left: -20px;
+    }
+
+    .service-wrap {
+        padding: 15px;
+    }
+
+    .pre-air-wrap {
+        width: 109%;
+        margin-left: -20px;
+    }
+
+    .air-cover {
+        padding: 15px;
+    }
+
+    .main-list {
+        font-size: 10px;
+        line-height: 17px;
+        margin-bottom: 24px;
+    }
+
+    .main-list2 {
+        font-size: 10px;
+        line-height: 17px;
+        margin-bottom: 24px;
+    }
+
+    .main-ul2 {
+        margin-bottom: 36px;
+    }
+
+    .cond-cover {
+        padding: 15px;
+    }
+
+    .cond-head {
+        font-size: 20px;
+    }
+
+    .conditioner-serv {
+        font-size: 20px;
+    }
+
+    .air-head {
+        font-size: 20px;
+    }
+
+    .commissioning {
+        width: 100%;
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    .secret {
+        font-size: 10px;
+        width: 100%;
+        line-height: 17px;
+    }
+
+    .why {
+        font-size: 14px;
+        margin-bottom: 18px;
+        margin-top: 24px;
+    }
+
+    .white-block {
+        width: 109%;
+        margin-top: -65px;
+        margin-left: -20px;
+    }
+
+    .white-sec {
+        padding:15px;
+    }
+
+    .gallery-head {
+        font-size: 20px;
+    }
+
+    .con-paragraph {
+        width: 100%;
+        font-size: 10px;
+        line-height: 17px;
+    }
+
+    .slider-container {
+        margin-top: 20px;
+    }
+
+    .footer-white {
+        display: none;
+    }
+
+    .common-ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer {
+        height: 420px;
+        background: url('../img/bg-foot-adapt.jpg') no-repeat center/cover;
+    }
+
+    .footer-content {
+        padding-top: 50px;
+        display: block;
+        padding-bottom: 0;
+    }
+
+    .last-logo {
+        display: block;
+    }
+
+    .arrow_up {
+        position: static;
+        top: 0;
+        margin: 0 auto;
+    }
+
+    .foot-logotype {
+        display: block;
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+
+    .foot-list {
+        display: block;
+        margin-top: 24px;
+        text-align: center;
+        position: static;
+    }
+
+    .footer-navigation {
+        display: block;
+    }
+    
+    .foot-li {
+        margin-bottom: 36px;
+    }
+
+    .slick-next {
+        display: none !important;
+    }
+
+    .slick-prev {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .about-me {
+        width: 110%;
+        margin-top: 37px;
+        margin-left: -19px;
+    }
+    
+    .mr {
+        margin-bottom: 30px;
+    }
+
+    .about-head {
+        font-size: 16px;
+    }
+
+    .accomodation-text {
+        width: 100%;
+    }
+
+    .pre-cond-wrap {
+        margin-top: 70px;
+        width: 110%;
+        margin-left: -19px;
+    }
+
+    .cond-head {
+        font-size: 16px;
+    }
+
+    .service {
+        margin-top: -96px;
+    }
+
+    .conditioner-serv {
+        font-size: 16px;
+    }
+
+    .pre-air-wrap {
+        width: 110%;
+        margin-left: -19px;
+    }
+
+    .air {
+        padding-bottom: 100px;
+    }
+
+    .air-cover {
+        padding: 10px;
+    }
+
+    .air-head {
+        font-size: 16px;
+    }
+
+    .air-content {
+        margin-top: 50px;
+    }
+
+    .white-block {
+        width: 110%;
+    }
+
+    .gallery-head {
+        font-size: 16px;
+    }
+
+    .footer-nav-item {
+        margin-left: auto;
+    }
+}
+
+    @media screen and (max-width: 420px) {
+    /* 
+    .about-me {
+        width: 100%;
+    }
+
+    .pre-cond-wrap {
+        width: 110%;
+        margin-left: -14px;
+    }
+
+    .pre-air-wrap {
+        width: 110%;
+        margin-left: -14px;
+    }
+
+    .mr {
+        margin-bottom: 50px;
+    }
+
+    .menu__box {
+        right: -15px;
+    }
+
+    .footer-nav-item {
+        margin-left: 0;
+    }
+    */
+}
